@@ -39,9 +39,5 @@ if(len(table) != 9):
 else:
     print('\n')
     prediction = lrg.predict([table])
-    
     #print the result
-    if(prediction == [1]):
-        print('X can win')
-    else:
-        print('X cannot win')
+    print('Predicted value from regression is ', prediction)
