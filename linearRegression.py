@@ -14,7 +14,7 @@ from sklearn import linear_model
 print('THIS IS A LINEAR REGRESSION ALGORITM TO PREDICT IF X CAN WIN A TIC-TAC-TOE MATCH OR NOT BASED ON THE X-O-X TABLE')
 
 #import dataset
-data = pd.read_csv('C:\\Users\\aryap\\Downloads\\ENGINEERING\\Semester 6\\MNL\\Asssignment\\tictactoe.csv')
+data = pd.read_csv('\\tictactoe.csv')
 
 #load the training set
 trainSet = []
